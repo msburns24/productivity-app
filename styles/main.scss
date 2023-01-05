@@ -1,3 +1,21 @@
 * {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.task-complete {
+  text-decoration: line-through;
+}
+
+.project {
+  margin-top: 15px;
+}
+
+.delete-project {
+  width: 20px;
+}
+
+.prj-title h3 {
+  display: inline;
+  font-size: 24px;
+  margin-left: 5px;
+}

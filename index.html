@@ -13,9 +13,11 @@
   <h2 class="project-hdr">Projects</h2>
 
   <div class="projects-list">
+    <button id="clear-complete">Clear Complete Tasks</button>
     <div class="project" id="prj-1">
       <div class="prj-title">
-        Odin
+        <img src="./img/delete.svg" alt="Delete" class="delete-project" id="del-btn-1">
+        <h3>Odin</h3>
       </div>
   
       <div class="prj-tasks">
@@ -23,8 +25,8 @@
           <li>Preparing for Deployment</li>
           <li>Project: Installing Rails</li>
           <li>A Railsy Web Refresher</li>
-          <li>
-            <input type="text" placeholder="Add a task..." class="new-task" />
+          <li class="new-task">
+            <input type="text" placeholder="Add a task..." />
           </li>
         </ul>
       </div>
@@ -32,7 +34,10 @@
 
   </div>
   
-  <button class="new-project">Add Project...</button>
+  <!-- <button class="new-project">Add Project...</button> -->
+  <input type="text" placeholder="Add Project..." id="new-project"/>
+
+  <div class="test-section"></div>
 
 </body>
 </html>
